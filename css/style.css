@@ -34,7 +34,27 @@ body{
     justify-content: center;
     gap:1.5em;
 }
-
+#operationtext{
+   padding-top:1em;
+}
+#buttoncal{
+    width:5.3em;
+    padding:10px;
+    border-radius: 30px;
+    border:none;
+    background-color: aquamarine;
+}
+#buttoncal:hover{
+    background-color: black;
+    color:white;
+}
+#presult{
+    position: absolute;
+    bottom:130px;
+    left:44%;
+    top:345px;
+    font-size:1.8em;
+}
 @media only screen and (max-width: 400px) {
    .calcu-container{
        padding-left: 4.5em;
