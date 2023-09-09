@@ -612,17 +612,6 @@ const questions = [
   },
 
 
- {
-    question: 'A coagulation factor easily affected when a patient is receiving an oral anticoagulant',
-    answers: [
-      { text: 'Factor XII', correct: false },
-      { text: "Factor V", correct: false },
-      { text: 'Factor VII',correct: true },
-      { text: 'Factor I', correct: false },
-
-     
-    ]
-  },
 
 
    {
@@ -650,6 +639,252 @@ const questions = [
   },
 
 
+
+
+  {
+    question: 'Vitals stains used in reticulocyte count: 1. NMB 2. BCB 3. Janus Green 4. Nile Blue Sulfate',
+    answers: [
+      { text: '1,3', correct: false },
+      { text: "2,4", correct: false },
+      { text: '1,2,3',correct: false },
+      { text: '1,2,3,4', correct: true },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'Sphingomyelinase is deficiency of what disease?',
+    answers: [
+      { text: "Tay-Sach's", correct: false },
+      { text: "Niemann's", correct: true },
+      { text: "Gaucher's",correct: false },
+      { text: "Fabry's", correct: false },
+
+     
+    ]
+  },
+
+    {
+    question: 'A specimen used in SPCT:',
+    answers: [
+      { text: "plt poor plasma", correct: false },
+      { text: "Adsorbed plasma", correct: false },
+      { text: "plt rich plasma",correct: false },
+      { text: "Normal serum", correct: true },
+
+     
+    ]
+  },
+
+     {
+    question: 'The anticoagulant of choice for routine coagulation procedure is:',
+    answers: [
+      { text: "sodium oxalate", correct: false },
+      { text: "Sodium citrate", correct: true },
+      { text: "Heparin",correct: false },
+      { text: "Sodium fluoride", correct: false },
+
+     
+    ]
+  },
+
+   {
+    question: 'Which of the following is most useful in differentiating hemophilias A & B?',
+    answers: [
+      { text: "Pattern of inheritance", correct: false },
+      { text: "Correction studies (substitution) ", correct: true },
+      { text: "Whole blood clotting time and aPTT",correct: false },
+      { text: "Mixing studies", correct: false },
+
+     
+    ]
+  },
+
+    {
+    question: 'Parahemophilia is caused by a deficiency of factor:',
+    answers: [
+      { text: "VII", correct: false },
+      { text: "VIII ", correct: false },
+      { text: "IX",correct: true },
+      { text: "VI", correct: false },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'The enzyme that cleaves fibrin bonds, releasing fibrin degradation products:',
+    answers: [
+      { text: "Thrombin", correct: false },
+      { text: "Plasmin ", correct: true },
+      { text: "FSP",correct: false },
+      { text: "Prostacylin", correct: false },
+
+     
+    ]
+  },
+
+
+    {
+    question: 'Which of the following tests detects the same coagulation factor defect as WBCT:',
+    answers: [
+      { text: "PT", correct: false },
+      { text: "TT ", correct: false },
+      { text: "SPCT",correct: false },
+      { text: "aPTT", correct: true },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'A combination of calcium ion, Pf3 and active forms of Factors V & X:',
+    answers: [
+      { text: "Cytokinase complex", correct: false },
+      { text: "Thrombokinase complex ", correct: false },
+      { text: "Prothrombinase complex ",correct: false },
+      { text: "Srepto-urokinase complex", correct: true },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'Prothrombin time results reported as: 1. Ratio 2. % activity 3. Seconds 4. Units',
+    answers: [
+      { text: "1,2,3", correct: true },
+      { text: "1&3", correct: false },
+      { text: "2&4 ",correct: false },
+      { text: "1,2,3,4", correct: false },
+
+     
+    ]
+  },
+
+
+
+ {
+    question: 'What methods are used to assay anti-thrombin III? 1. Radial immunodiffusion 2. Thrombin neutralization time 3. Laurell Rocket electrophoresis 4. Reptilase time',
+    answers: [
+      { text: "1,2,3,4", correct: false },
+      { text: "1&3", correct: false },
+      { text: "2&4 ",correct: false },
+      { text: "4 only", correct: true },
+
+     
+    ]
+  },
+
+
+   {
+    question: 'Which of the following are vitamin K dependent factors?',
+    answers: [
+      { text: "II,VII,IX,X", correct: true },
+      { text: "XI,XII,HMWK", correct: false },
+      { text: "I,V,VIII,XIII ",correct: false },
+      { text: "II,III,IV,VI", correct: false },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'What coagulation factors are not present in aged plasma ?',
+    answers: [
+      { text: "XI & XIII", correct: false },
+      { text: "I & XIII", correct: false },
+      { text: "IV & VIII ",correct: true },
+      { text: "VII & X", correct: false },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'Jasmine had a history of mild hemorrhagic episodes. Laboratory results in prolonged PT and aPTT. The prolonged PT was corrected by normal and adsorbed plasma but not with aged plasma. Which of the following factors deficient?',
+    answers: [
+      { text: "Factor X", correct: false },
+      { text: "Factor III", correct: false },
+      { text: "Factor V",correct: true },
+      { text: "Factor IX", correct: false },
+
+     
+    ]
+  },
+
+
+
+
+
+  {
+    question: 'TRAP stain is applicable in:',
+    answers: [
+      { text: "Stem cell leukemia", correct: false },
+      { text: "Erythroleukemia", correct: false },
+      { text: "Hairy cell leukemia",correct: true },
+      { text: "Monoblastic leukemia", correct: false },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'Absence of intermediate maturing cells between the blast and mature neutrophil commonly seen in AML and preleukemic state',
+    answers: [
+      { text: "SLeukemoid reaction", correct: false },
+      { text: "Leukemic hiatus", correct: true },
+      { text: "Aleukemic leukemia",correct: false },
+      { text: "Leukopenia", correct: false },
+
+     
+    ]
+  },
+
+  {
+    question: 'A type of cell seen in myelofibrosis with myeloid metaplasia',
+    answers: [
+      { text: "Dacrocyte", correct: true },
+      { text: "Acanthocyte", correct: false },
+      { text: "Schistocyte",correct: false },
+      { text: "Stomatocyte", correct: false },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'In APL, the patient has a bleeding tendency similar to',
+    answers: [
+      { text: "TTP", correct: false },
+      { text: "ITP", correct: false },
+      { text: "DIC",correct: true },
+      { text: "Haemophilia", correct: false },
+
+     
+    ]
+  },
+
+
+  {
+    question: 'A differential theraphy is applicable to:',
+    answers: [
+      { text: "CGL", correct: false },
+      { text: "ALL", correct: false },
+      { text: "APL",correct: true },
+      { text: "AML", correct: false },
+
+     
+    ]
+  }
 
 
 
