@@ -884,7 +884,729 @@ const questions = [
 
      
     ]
+  },
+
+  
+  {
+    question: 'Which anemia has red cellmorphology similar to that seen in iron deficiency anemia?',
+    answers: [
+      { text: "Sickle cell anemia", correct: false },
+      { text: "Thalassemia syndrome", correct: true },
+      { text: "Pernicious anemia",correct: false },
+      { text: "Hereditary spherocytosis", correct: false },
+
+     
+    ]
+  },
+
+
+   
+  {
+    question: 'Which ratio of anticoagulant-to blood is correct for coagulation  procedures?',
+    answers: [
+      { text: "1:4 ", correct: false },
+      { text: "1:5", correct: false },
+      { text: "1:9",correct: true },
+      { text: "1:10", correct: false },
+
+     
+    ]
+  },
+
+  {
+    question: 'A decreased osmotic fragility test  would be associated with which of the following conditions?',
+    answers: [
+      { text: "Sickle cell anemia  ", correct: true },
+      { text: "Hereditary spherocytosis ", correct: false },
+      { text: "Hemolytic disease of the newborn",correct: false },
+      { text: "Acquired hemolytic anemia ", correct: false },
+
+     
+    ]
+  },
+
+  {
+    question: 'Which of the following disorders  has an increase in osmotic fragility?',
+    answers: [
+      { text: "Iron deficiency anemia ", correct: false },
+      { text: " Hereditary elliptocytosis  ", correct: false },
+      { text: "Hereditary stomatocytosis",correct: false },
+      { text: " Hereditary spherocytosis ", correct: true },
+
+     
+    ]
+  },
+
+
+
+  {
+    question: "Which of the following organs is responsible for the pitting process for RBC's ",
+    answers: [
+      { text: "Liver ", correct: false },
+      { text: "Spleen", correct: true },
+      { text: "Kidney",correct: false },
+      { text: "Lymph nodes", correct: false },
+
+     
+    ]
+  },
+
+  {
+    question: "Reticulocytosis usually indicates:",
+    answers: [
+      { text: "Response to inflammation", correct: false },
+      { text: "Neoplastic process", correct: false },
+      { text: "Aplastic anemia", correct: false },
+      { text: "Red cell regeneration", correct: true }
+    ]
+  },
+
+  {
+    question: "The macrocytes typically seen in megaloblastic processes are:",
+    answers: [
+      { text: "Crescent-shaped", correct: false },
+      { text: "Teardrop-shaped", correct: false },
+      { text: "Ovalocytic", correct: true },
+      { text: "Pencil-shaped", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Which inclusions may be seen in leukocytes?",
+    answers: [
+      { text: "Dohle bodies", correct: true },
+      { text: "Basophilic stippling", correct: false },
+      { text: "Malarial parasites", correct: false },
+      { text: "Howell-Jolly bodies", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Disseminated intravascular coagulation (DIC) is most often associated with which of the following types of acute leukemia?",
+    answers: [
+      { text: "Acute myeloid leukemia without maturation", correct: false },
+      { text: "Acute promyelocytic leukemia", correct: true },
+      { text: "Acute myelomonocytic leukemia", correct: false },
+      { text: "Acute monocytic leukemia", correct: false }
+    ]
+  },
+
+
+
+  {
+    question: "What influence does the Philadelphia (Ph1) chromosome have on the prognosis of patients with chronic myelocytic leukemia?",
+    answers: [
+      { text: "It is not predictive", correct: false },
+      { text: "The prognosis is better if Ph1 is present", correct: true },
+      { text: "The prognosis is worse if Ph1 is present", correct: false },
+      { text: "The disease usually transforms into AML when Ph1 is present", correct: false }
+    ]
+  },
+
+  {
+    question: "The leukocyte alkaline phosphatase (LAP) stain on a patient gives the following results: 10(0) 48(1+) 38(2+) 3(3+) 1(4+). Calculate the LAP score.",
+    answers: [
+      { text: "100", correct: false },
+      { text: "117", correct: false },
+      { text: "137", correct: true },
+      { text: "252", correct: false }
+    ]
+  },
+
+
+  {
+    question: "The morphological classification of anemia is based on which of the following?",
+    answers: [
+      { text: "M:E (myeloid:erythroid) ratio", correct: false },
+      { text: "Prussian blue stain", correct: false },
+      { text: "RBC indices", correct: true },
+      { text: "Reticulocyte count", correct: false }
+    ]
+  },
+
+  {
+    question: "All of the following are associated with intravascular hemolysis except:",
+    answers: [
+      { text: "Methemoglobinemia", correct: true },
+      { text: "Hemoglobinuria", correct: false },
+      { text: "Hemoglobinemia", correct: false },
+      { text: "Decreased haptoglobin", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Aspirin prevents platelet aggregation by inhibiting the action of which enzyme?",
+    answers: [
+      { text: "Phospholipase", correct: false },
+      { text: "Cyclo-oxygenase", correct: true },
+      { text: "Thromboxane A2 synthetase", correct: false },
+      { text: "Prostacyclin synthetase", correct: false }
+    ]
+  },
+
+  {
+    question: "Which of the following tests is most likely to be abnormal in patients taking aspirin?",
+    answers: [
+      { text: "Platelet morphology", correct: false },
+      { text: "Platelet count", correct: false },
+      { text: "Bleeding time", correct: true },
+      { text: "Prothrombin time", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Which of the following conditions may produce spherocytes in a peripheral smear?",
+    answers: [
+      { text: "PelgerʹHuet anomaly", correct: false },
+      { text: "Pernicious anemia", correct: false },
+      { text: "Autoimmune hemolytic anemia", correct: true },
+      { text: "Sideroblastic anemia", correct: false }
+    ]
+  },
+
+  {
+    question: "In PV, what is characteristically seen in the peripheral blood?",
+    answers: [
+      { text: "Panmyelosis", correct: false },
+      { text: "Pancytosis", correct: true },
+      { text: "Pancytopenia", correct: false },
+      { text: "Panhyperplasia", correct: false }
+    ]
+  },
+
+
+
+  {
+    question: "Normocytic and normochromic anemia is usually seen in patients with:",
+    answers: [
+      { text: "Iron deficiency anemia", correct: false },
+      { text: "Aplastic anemia", correct: true },
+      { text: "Thalassemia", correct: false },
+      { text: "Anemia of chronic disease", correct: false }
+    ]
+  },
+
+
+
+  {
+    question: "A clinical finding to differentiate Vit. B12 Deficiency from Folic Acid Deficiency:",
+    answers: [
+      { text: "Macrocytic anemia", correct: false },
+      { text: "Neuropathy", correct: true },
+      { text: "FIGLU Test", correct: false },
+      { text: "Macropolycyte", correct: false }
+    ]
+  },
+
+
+  {
+    question: "A hereditary hemolytic anemia wherein there is an increased MCV, OFT, decreased MCHC, and in which RBC morphology must be examined in both wet and dry slides:",
+    answers: [
+      { text: "H. Hydrocytosis", correct: true },
+      { text: "H. Pyropoikilocytosis", correct: false },
+      { text: "H. Ovalocytosis", correct: false },
+      { text: "H. Spherocytosis", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Bronze elliptocytosis occurs in patients with abnormal hemoglobin as in:",
+    answers: [
+      { text: "Hb C", correct: false },
+      { text: "Hb M", correct: false },
+      { text: "Hb H", correct: false },
+      { text: "Hb S", correct: true }
+    ]
+  },
+
+
+  {
+    question: "An aerobic enzyme that sees to it that Hb must always be in its functional state:",
+    answers: [
+      { text: "Isomerase", correct: false },
+      { text: "Methemoglobin Reductase", correct: true },
+      { text: "Diaphorase", correct: false },
+      { text: "G6PD", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Gumprecht shadow or ghost cell is also known as:",
+    answers: [
+      { text: "Macropolycyte", correct: false },
+      { text: "Basket cell", correct: true },
+      { text: "Tart Cell", correct: false },
+      { text: "Hairy Cell", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Zimmer and Hargrave method for L.E Cell Prep uses:",
+    answers: [
+      { text: "Capillary Blood", correct: false },
+      { text: "Clotted Blood", correct: true },
+      { text: "Heparinized Blood", correct: false }
+    ]
+  },
+
+  {
+    question: "An RBC exhibiting hypochromia would be described as being:",
+    answers: [
+      { text: "Markedly bluish in color", correct: false },
+      { text: "Variable in shape", correct: false },
+      { text: "Packed with hemoglobin", correct: false },
+      { text: "Markedly pale in central color", correct: true }
+    ]
+  },
+
+
+
+  {
+    question: "When performing automated cell counts, most automated cell counting instruments:",
+    answers: [
+      { text: "Count nucleated red blood cells with platelets", correct: false },
+      { text: "Do not count nucleated red blood cells", correct: false },
+      { text: "Count nucleated red blood cells with erythrocytes", correct: false },
+      { text: "Count nucleated red blood cells with leukocytes", correct: true }
+    ]
+  },
+
+
+  {
+    question: "What is the best index of the severity of hemolysis?",
+    answers: [
+      { text: "Absolute reticulocyte count", correct: true },
+      { text: "Size and weight of the spleen", correct: false },
+      { text: "Microhematocrit", correct: false },
+      { text: "Strength of the coomb's test", correct: false }
+    ]
+  },
+
+
+  {
+    question: "A cell with a bilobed or double nucleoli having an owl-eye appearance:",
+    answers: [
+      { text: "Reed-Sternberg", correct: true },
+      { text: "Tart Cell", correct: false },
+      { text: "LE Cell", correct: false },
+      { text: "Mast Cell", correct: false }
+    ]
+  },
+
+  {
+    question: "Mitochondrial enzyme that catalyzes the incorporation of iron and protoporphyrin:",
+    answers: [
+      { text: "Ferrochelatase", correct: true },
+      { text: "Heparinase", correct: false },
+      { text: "Isomerase", correct: false },
+      { text: "Hexokinase", correct: false }
+    ]
+  },
+
+
+
+  {
+    question: "A combination of calcium ion, pF3, and active forms of Factor V and X:",
+    answers: [
+      { text: "Thrombinase complex", correct: false },
+      { text: "Streptokinase complex", correct: false },
+      { text: "Cytokinase complex", correct: false },
+      { text: "Prothrombinase complex", correct: true }
+    ]
+  },
+
+
+  {
+    question: "Cell that demonstrates immediate alteration in EDTA:",
+    answers: [
+      { text: "Monocyte", correct: false },
+      { text: "Lymphocyte", correct: false },
+      { text: "Neutrophil", correct: false },
+      { text: "Eosinophil", correct: true }
+    ]
+  },
+
+
+  {
+    question: "Method of hemoglobin determination that measures all forms of hemoglobin except S-Hb:",
+    answers: [
+      { text: "Cyanmethemoglobin", correct: true },
+      { text: "Electrophoresis", correct: false },
+      { text: "Acid hematin", correct: false },
+      { text: "Specific gravity", correct: false }
+    ]
+  },
+
+
+  {
+    question: "A fixed tissue cell with red bead-like aggregates or granules arranged in a chain:",
+    answers: [
+      { text: "Heparinocyte", correct: false },
+      { text: "Tissue eosinophil", correct: false },
+      { text: "Ferrata cell", correct: true },
+      { text: "Mast cell", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Which of the following statements concerning reticulocyte count is/are true?",
+    answers: [
+      { text: "The adult reference range is approximately 0.5 to 5.0%", correct: false },
+      { text: "Newborns have a higher reference range than adults", correct: true },
+      { text: "The material that stains in reticulocytes is DNA", correct: false },
+      { text: "The Miller disk is a device used to aid in reticulocyte counting",correct: true},
+
+    ]
+  },
+// 96 & 97
+
+
+   {
+    question: "Which of the following affects erythrocyte sedimentation rate:",
+    answers: [
+      { text: "Composition of plasma", correct: true },
+      { text: "Concentration of red cells", correct: true },
+      { text: "Size of red cells", correct: true },
+      { text: "Shape of red cells", correct: true},
+
+    ]
+  },
+
+
+  {
+    question: "Sources of error when hemoglobin by the cyanmethemoglobin method include:",
+    answers: [
+      { text: "Lipemic plasma", correct: true },
+      { text: "Excessive anticoagulant", correct: false },
+      { text: "High WBC count", correct: true },
+      { text: "Certified std. used", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Condition showing anisochromasia:",
+    answers: [
+      { text: "PNH", correct: false },
+      { text: "IDA after blood transfusion", correct: true },
+      { text: "Megaloblastic anemia", correct: true },
+      { text: "Sideroblastic anemia", correct: true }
+    ]
+  },
+
+
+  {
+    question: "Cells usually affected when heparin is used as an anticoagulant:",
+    answers: [
+      { text: "White blood cells", correct: false },
+      { text: "Red blood cells", correct: true },
+      { text: "Platelets", correct: false },
+      { text: "Endothelial cells", correct: true }
+    ]
+  },
+
+
+
+  {
+    question: "Correction factors in determining a correct cell count:",
+    answers: [
+      { text: "Depth", correct: true },
+      { text: "Area", correct: true },
+      { text: "Volume", correct: true },
+      { text: "Color", correct: false }
+    ]
+  },
+
+  {
+    question: "Leukocyte alkaline phosphatase activity is decreased in:",
+    answers: [
+      { text: "CGL", correct: true },
+      { text: "PCH", correct: false },
+      { text: "PNH", correct: true },
+      { text: "Polycythemia vera", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Tests for detection of microcytic hypochromic anemia:",
+    answers: [
+      { text: "Serum iron level", correct: true },
+      { text: "Serum ferritin level", correct: true },
+      { text: "Serum iron binding capacity", correct: true },
+      { text: "Serum bilirubin", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Laboratory procedures used in the differentiation of acute leukemia:",
+    answers: [
+      { text: "Cytochemical evaluation", correct: true },
+      { text: "Cytogenic studies", correct: true },
+      { text: "Examination of blastic morphology", correct: true },
+      { text: "Liquid chromatography", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Which of the following are commonly associated with the Epstein Barr Virus:",
+    answers: [
+      { text: "Hodgkin's lymphoma", correct: false },
+      { text: "Burkitt's lymphoma", correct: false },
+      { text: "AIDS", correct: false },
+      { text: "Infectious Mononucleosis (IM)", correct: true }
+    ]
+  },
+
+
+  {
+    question: "Basic mechanism for the occurrence of anemia:",
+    answers: [
+      { text: "Increased destruction", correct: true },
+      { text: "Decreased production", correct: true },
+      { text: "Due to blood loss", correct: true },
+      { text: "Maturation disorders", correct: true }
+    ]
+  },
+
+
+
+  {
+    question: "A blood picture of giant platelets and thrombocytopenia:",
+    answers: [
+      { text: "Alport syndrome", correct: true },
+      { text: "Bernard-Soulier syndrome", correct: true },
+      { text: "May-Hegglin anomaly", correct: true },
+      { text: "Essential Athrombia", correct: false }
+    ]
+  },
+
+
+
+  {
+    question: "Pathologic increase in ESR may be due to:",
+    answers: [
+      { text: "Necroblotic cell state", correct: true },
+      { text: "Degenerative", correct: true },
+      { text: "Inflammatory", correct: true },
+      { text: "Pregnancy", correct: false }
+    ]
+  },
+
+
+  {
+    question: "RBC diluting fluid:",
+    answers: [
+      { text: "Pilot's fluid", correct: false },
+      { text: "Gower's fluid", correct: true },
+      { text: "Turk's fluid", correct: false },
+      { text: "Toisson's fluid", correct: true }
+    ]
+  },
+
+  {
+    question: "Considered as transport protein:",
+    answers: [
+      { text: "Haptoglobin", correct: true },
+      { text: "Transferrin", correct: true },
+      { text: "Hemopexin", correct: true },
+      { text: "Hemosiderin", correct: false }
+    ]
+  },
+
+
+  {
+    question: "With respect to globin chain genes, which of the following statements is correct:",
+    answers: [
+      { text: "The genes for the alpha globin chains are located on chromosome 16 and the genes for the gamma, delta and beta chains are located on chromosome 11", correct: true },
+      { text: "The genes for the gamma, delta and beta globin chains are located on chromosome 16 and the genes for the alpha chains are located on chromosome 11", correct: false },
+      { text: "The genes for the alpha globin chains are located on chromosome 10 and the genes for the gamma, delta and beta chains are located on chromosome 15", correct: false },
+      { text: "The genes for the alpha and delta globin chains are located on chromosome 11 and the genes for the gamma and beta chains are located on chromosome 16", correct: false }
+    ]
+  },
+
+
+  {
+    question: "The neutrophil mitotic pool includes:",
+    answers: [
+      { text: "Promyelocytes", correct: true },
+      { text: "Myeloblasts", correct: true },
+      { text: "Myelocytes", correct: true },
+      { text: "Metamyelocytes", correct: false }
+    ]
+  },
+
+  {
+    question: "Which of the following is NOT a characteristic finding in polycythemia vera?",
+    answers: [
+      { text: "Blood pancytosis", correct: true },
+      { text: "Increased red cell mass", correct: false },
+      { text: "Increased EPO level", correct: false },
+      { text: "Increased blood viscosity", correct: false }
+    ]
+  },
+
+
+
+   {
+    question: "Stain used in detecting presence of eosiniphil in urine?",
+    answers: [
+      { text: "Hansel Stain", correct: true }
+   
+    ]
+  },
+
+
+  {
+    question: "Specimen used in aPTT:",
+    answers: [
+      { text: "Normal serum", correct: false },
+      { text: "Plt poor plasma", correct: true },
+      { text: "Adsorbed plasma", correct: false },
+      { text: "Plt rich plasma", correct: false }
+    ]
+  },
+  
+  {
+    question: "Increase in classes I and II in arneth's count is ",
+    answers: [
+      { text: "Shift to left", correct: true },
+      { text: "Regenerative shift", correct: false },
+      { text: "Shift to right", correct: false },
+      { text: "degenerative shift", correct: false }
+    ]
+  },
+  
+  {
+    question: "Molarity of Calcium chloride used in aPTT:",
+    answers: [
+      { text: "0.25M", correct: false },
+      { text: "0.02M", correct: false },
+      { text: "0.0025M", correct: false },
+      { text: "0.025M", correct: true }
+    ]
+  },
+
+  {
+    question: "Test for stage III defect:",
+    answers: [
+      { text: "TT", correct: true },
+      { text: "Stypven time", correct: false },
+      { text: "Reptilase Test", correct: false },
+      { text: "SPCT", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Hemodilution after acute blood loss is due to:",
+    answers: [
+      { text: "Constriction of peripheral small vessels", correct: false },
+      { text: "Loss of too much protein after bleeding", correct: false },
+      { text: "Lymph of lymphatic tissues enter the blood vessel", correct: true },
+      { text: "Increased osmotic pressure of blood vessel", correct: false }
+    ]
+  },
+
+  {
+    question: "Cell which has water-soluble granules:",
+    answers: [
+      { text: "Neutrophils", correct: false },
+      { text: "Basophil", correct: true },
+      { text: "Eosinophil", correct: false },
+      { text: "Monocyte", correct: false }
+    ]
+  },
+
+
+  {
+    question: "An enzyme that cleaves fibrin bonds, releasing fibrin degradation products:",
+    answers: [
+      { text: "Heparin", correct: false },
+      { text: "Plasmin", correct: true },
+      { text: "Prostacyclin", correct: false },
+      { text: "Thrombin", correct: false }
+    ]
+  },
+
+
+  {
+    question: "Blood picture following acute hemorrhage show the following characteristics except:",
+    answers: [
+      { text: "Increased TIBC", correct: true },
+      { text: "Increased reticulocyte", correct: false },
+      { text: "Normocytic, normochromic", correct: false },
+      { text: "Leukocytosis", correct: false }
+    ]
   }
+
+
+
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
